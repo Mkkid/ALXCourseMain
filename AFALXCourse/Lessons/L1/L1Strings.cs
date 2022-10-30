@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace AFALXCourse.Lessons
+namespace AFALXCourse.Lessons.L1
 {
     public class L1Strings
     {
@@ -46,7 +46,7 @@ namespace AFALXCourse.Lessons
 
             //string interpolation
             string concat3 = $"{word1} {word2} i dobrze się ma";
-            Console.WriteLine(concat3);  
+            Console.WriteLine(concat3);
         }
     }
 }

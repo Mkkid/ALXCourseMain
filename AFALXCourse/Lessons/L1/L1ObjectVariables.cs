@@ -1,6 +1,6 @@
-﻿using AFALXCourse.Lessons.Classes;
+﻿using AFALXCourse.Lessons.L1.Classes;
 
-namespace AFALXCourse.Lessons
+namespace AFALXCourse.Lessons.L1
 {
     public static class L1ObjectVariables
     {
