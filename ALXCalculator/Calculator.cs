@@ -11,17 +11,14 @@ namespace ALXCalculator
         public void Run()
         {
             Console.WriteLine("Running calculator");
-            Console.Write("X number:");
-            var x = Console.ReadLine();
-
-            var xInt=Double.Parse(x);
-            Console.Write("Ynumber");
-            var y = Console.ReadLine();
-            var yInt=Double.Parse(y);
-            Console.WriteLine($"{x} + {y} = {Add(xInt,yInt)}");
-            Console.WriteLine($"{x} - {y} = {Substract(xInt,yInt)}");
-            Console.WriteLine($"{x} * {y} = {Multiply(xInt,yInt)}");
-            Console.WriteLine($"{x} / {y} = {Divide(xInt,yInt)}");
+            Console.Write("X number: ");
+            var x = Double.Parse(Console.ReadLine());
+            Console.Write("Y number: ");
+            var y = Double.Parse(Console.ReadLine());
+            Console.WriteLine($"{x} + {y} = {Add(x,y)}");
+            Console.WriteLine($"{x} - {y} = {Substract(x,y)}");
+            Console.WriteLine($"{x} * {y} = {Multiply(x,y)}");
+            Console.WriteLine($"{x} / {y} = {Divide(x,y)}");
         }
         private double Add(double x, double y)
         {
